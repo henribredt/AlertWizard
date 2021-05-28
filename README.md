@@ -1,8 +1,8 @@
 # AlertWizard 🧙🏻‍♂️
 
-This package lets easily create diffrent alerts in SwiftUI with the call of a singe function.
+This package lets you easily create diffrent alerts in SwiftUI with the call of a singe function.
 
-I'm happy to hear your feedback, let me know if you enjoy using the package, have troubles or ideas for improvements. 
+_As this is my first package that I make publicly available, I'm happy to hear your feedback. Let me know if you enjoy using the package, have troubles or ideas for improvements._
 
 ## Requirements
 
@@ -26,7 +26,7 @@ View {}
 ## Usage
 AlertWizard can show two diffrent kinds of alerts
 
-#### Info alert
+### Info alert
 Display a simple multipurpose alert that provieds a dismiss button with no action associated
 ```swift
 AlertWizard.shared.showInfoAlert(
@@ -35,7 +35,7 @@ AlertWizard.shared.showInfoAlert(
 )
 ```
 
-#### Choice alert
+### Choice alert
 Display a multipurpose alert that provides a primary and a secondary button with completion handlers
 ```swift
 AlertWizard.shared.showStandardChoiceAlert(
