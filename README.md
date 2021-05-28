@@ -14,7 +14,7 @@ Add `https://github.com/henribredt/AlertWizard` in the [“Swift Package Manager
 
 ##Setup
 Add a `.alert(...)` modifier to a `View` as shown in the example code
-```
+```swift
 @ObservedObject private var alerts = AlertWizard.shared
 
 View {}
@@ -23,17 +23,17 @@ View {}
 }
 ```
 
-##Usage
+## Usage
 AlertWizard can show two diffrent kinds of alerts
 
 ### Info alert
 Display a simple multipurpose alert that provieds a dismiss button with no action associated
-```
+```swift
 AlertWizard.shared.showInfoAlert(title: "Title", message: "Message")
 ```
 
 ### Choice alert
 Display a multipurpose alert that provides a primary and a secondary button with completion handlers
-```
+```swift
 AlertWizard.shared.showStandardChoiceAlert(title: "Title", message: "Message", primaryButtonTitle: "Print A", secondaryButtonTitle: "Print B", primaryCompletionHandler: {print("A")}, secondaryCompletionHandler: {print("B)})
 ```

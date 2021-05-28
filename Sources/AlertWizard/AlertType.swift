@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  AlertType.swift
 //
 
 import Foundation
