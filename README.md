@@ -13,7 +13,8 @@ macOS 10.15+, iOS 14+
 Add `https://github.com/henribredt/AlertWizard` in the [“Swift Package Manager” tab in Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 
 ## Setup
-Add a `.alert(...)` modifier to a `View` as shown in the example code
+Add a `.alert(...)` modifier to a `View` as shown in the example code.
+AlertWizard is a singleton, access using `AlertWizard.shared`.
 ```swift
 @ObservedObject private var alerts = AlertWizard.shared
 
