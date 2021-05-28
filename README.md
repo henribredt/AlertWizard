@@ -49,3 +49,6 @@ AlertWizard.shared.showStandardChoiceAlert(
 ```
 ## Documentation
 This package is well documented and includes a .html documentation generated using [Jazzy](https://github.com/realm/jazzy). Open the `index.html` in any browser to view it.
+
+## About
+This package was created by Henri Bredt ([@henricreates](https://twitter.com/henricreates)) and published under the MIT license. See [LICENSE](LICENSE) for details.
