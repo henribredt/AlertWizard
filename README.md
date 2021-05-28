@@ -1,6 +1,6 @@
 # AlertWizard 🧙🏻‍♂️
 
-This package lets you easily create diffrent alerts in SwiftUI with the call of a singe function.
+This package lets you easily create diffrent alerts in SwiftUI with the call of a single function.
 
 _As this is my first package that I make publicly available, I'm happy to hear your feedback. Let me know if you enjoy using the package, have troubles or ideas for improvements._
 
