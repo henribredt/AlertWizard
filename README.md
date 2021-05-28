@@ -48,4 +48,4 @@ AlertWizard.shared.showStandardChoiceAlert(
 )
 ```
 ## Documentation
-This package is well documented and includes a html documentation generated  using [Jazzy](https://github.com/realm/jazzy). Clone and open the `index.html` in any browser.
+This package is well documented and includes a .html documentation generated using [Jazzy](https://github.com/realm/jazzy). Open the `index.html` in any browser to view it.
