@@ -44,6 +44,8 @@ AlertWizard.shared.showStandardChoiceAlert(
     primaryButtonTitle: "Print A",
     secondaryButtonTitle: "Print B",
     primaryCompletionHandler: {print("A")},
-    secondaryCompletionHandler: {print("B)}
+    secondaryCompletionHandler: {print("B")}
 )
 ```
+## Documentation
+This package is well documented and includes a html documentation generated  using [Jazzy](https://github.com/realm/jazzy). Clone and open the `index.html` in any browser.
