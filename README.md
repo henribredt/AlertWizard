@@ -6,7 +6,7 @@ _As this is my first package that I make publicly available, I'm happy to hear y
 
 ## Requirements
 
-macOS 10.15+, iOS 14+
+macOS 10.15+, iOS 13+
 
 ## Install
 
