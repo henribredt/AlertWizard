@@ -14,7 +14,6 @@ Add `https://github.com/henribredt/AlertWizard` in the [“Swift Package Manager
 
 ## Setup
 Add a `.alert(...)` modifier to a `View` as shown in the example code.
-AlertWizard is a singleton, access using `AlertWizard.shared`.
 ```swift
 @ObservedObject private var alerts = AlertWizard.shared
 
@@ -23,7 +22,7 @@ View {}
     alerts.getCurrentAlert()
 }
 ```
-
+AlertWizard is a singleton, access using `AlertWizard.shared`
 ## Usage
 AlertWizard can show two diffrent kinds of alerts
 
