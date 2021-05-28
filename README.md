@@ -12,7 +12,7 @@ macOS 10.15+, iOS 14+
 
 Add `https://github.com/henribredt/AlertWizard` in the [“Swift Package Manager” tab in Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 
-##Setup
+## Setup
 Add a `.alert(...)` modifier to a `View` as shown in the example code
 ```swift
 @ObservedObject private var alerts = AlertWizard.shared
@@ -26,14 +26,24 @@ View {}
 ## Usage
 AlertWizard can show two diffrent kinds of alerts
 
-### Info alert
+#### Info alert
 Display a simple multipurpose alert that provieds a dismiss button with no action associated
 ```swift
-AlertWizard.shared.showInfoAlert(title: "Title", message: "Message")
+AlertWizard.shared.showInfoAlert(
+    title: "Title",
+    message: "Message"
+)
 ```
 
-### Choice alert
+#### Choice alert
 Display a multipurpose alert that provides a primary and a secondary button with completion handlers
 ```swift
-AlertWizard.shared.showStandardChoiceAlert(title: "Title", message: "Message", primaryButtonTitle: "Print A", secondaryButtonTitle: "Print B", primaryCompletionHandler: {print("A")}, secondaryCompletionHandler: {print("B)})
+AlertWizard.shared.showStandardChoiceAlert(
+    title: "Title",
+    message: "Message",
+    primaryButtonTitle: "Print A",
+    secondaryButtonTitle: "Print B",
+    primaryCompletionHandler: {print("A")},
+    secondaryCompletionHandler: {print("B)}
+)
 ```
